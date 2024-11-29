@@ -6,13 +6,13 @@
      </div>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup name="App">
 //JS/TS
     import Person from './components/Person.vue';
-    export default{
-    name:"App",  //组件名字
-    components:{Person}
-    }
+    // export default{
+    // name:"App",  //组件名字
+    // components:{Person}
+    // }
 </script>
 
 <style>

@@ -29,10 +29,10 @@
         Object.assign(person , {name:'李四',age:20})
     
     }
-    // //监视
+    // //监视,reacative对象默认深度监视，无法关闭
      watch(person,(newValue,oldValue)=>{
-    console.log(newValue,oldValue)
-    },{deep:true,immediate:true})
+        console.log(newValue,oldValue)
+    })
 </script>
 
 <style scoped>
